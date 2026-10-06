@@ -44,7 +44,7 @@ s\mu_i'(s)-2\mu_i(s)\ge
 These inequalities hold at regular radii and hence in their integrated, absolutely continuous form. Multiplication by $`e^{Cs^2/2}`$ and integration from $`s`$ to $`s_0`$, using $`\mu_i(s_0)\le a`$, give
 ```math
 \mathrm{Area}(F_i\cap B_N(q,s))\le C_a s^2
-\qquad(0<s\le s_0).
+\qquad(0\lt s\le s_0).
 \qquad\text{(B5)}
 ```
 This is an upper area-ratio bound; it neither fixes nor assumes the boundary density.
