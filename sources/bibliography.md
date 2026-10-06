@@ -16,7 +16,7 @@ Acquisition: the official competition PDF, `seifert-surfaces.pdf`. Its SHA-256 i
 
 **G. Pan, C. You, J. Zhou and Y. Chen.** *Exchange complexes and contractibility of the complex of incompressible Seifert surfaces*. [arXiv:2609.09224v2](https://arxiv.org/abs/2609.09224v2), dated 12 September 2026.
 
-Read: §2.1, equation (1), pp. 5–6, flat torus, exact $1-r$ collar and linear longitude foliation; Theorem 2.6, p. 8, smooth fixed-boundary attainment, with the supporting argument on pp. 8–17 and concluding assembly on pp. 16–17; Theorem 2.16, pp. 22–23, the retained compactness dependence; Lemma 4.2, pp. 31–32, the retained well-foundedness dependence; the endpoint-isotopy passage in Lemma 3.11, p. 30. The supplied fresh review visually checked the fixed-boundary statement and relevant passages.
+Read: §2.1, equation (1), pp. 5–6, flat torus, exact $`1-r`$ collar and linear longitude foliation; Theorem 2.6, p. 8, smooth fixed-boundary attainment, with the supporting argument on pp. 8–17 and concluding assembly on pp. 16–17; Theorem 2.16, pp. 22–23, the retained compactness dependence; Lemma 4.2, pp. 31–32, the retained well-foundedness dependence; the endpoint-isotopy passage in Lemma 3.11, p. 30. The supplied fresh review visually checked the fixed-boundary statement and relevant passages.
 
 Theorem 2.6 is **accepted as an external input**, not independently certified here. Reading its proof does not constitute independent certification. It is not used beyond its printed metric scope. Acquisition: arXiv:2609.09224v2.
 

@@ -10,24 +10,24 @@
 
 `34f17d7d99780d3fd3626d9e5d7b35d6aa76661c404f191b6df341b300c0c06f`。
 
-拟申报类别为突破贡献：修补关键紧性缺口。比赛版 Theorem 3.3 的 $(\mathrm{Fin})$（p. 7）、Lemma 4.8（p. 11）及 Theorem A.6（p. 27）依赖 Kapovich 在 Schultens 论文附录中的 Proposition A.1 及其推论。该证明调用的 Anderson Theorem 3.1，只控制凸定义函数域中的固定正深度截断，未供应原曲面直到原边界的收敛。
+拟申报类别为突破贡献：修补关键紧性缺口。比赛版 Theorem 3.3 的 $`(\mathrm{Fin})`$（p. 7）、Lemma 4.8（p. 11）及 Theorem A.6（p. 27）依赖 Kapovich 在 Schultens 论文附录中的 Proposition A.1 及其推论。该证明调用的 Anderson Theorem 3.1，只控制凸定义函数域中的固定正深度截断，未供应原曲面直到原边界的收敛。
 
 Pan、You、Zhou、Chen 的作者后续版本 arXiv:2609.09224v2（2026 年 9 月 12 日）在 Theorem 2.16（pp. 22–23）及良序性 Lemma 4.2（pp. 31–32）中仍保留相应依赖。领子上的弱凸函数不能把截断收敛结论升级为原边界收敛。详见[缺口分析](proof/gap.md)。
 
 ## 证明和应用
 
-精确最小性先通过全局 Plateau 比较盘、相对盘替换及特定接缝的面积逼近，迫使原局部盘本身成为全局最小面积盘。边界一阶变分给出二次面积上界，不预设密度为 $1/2$。加权曲率点选使人工边界在缩放中退至无穷远；已有曲率界后才建立 Fermi 半图像。实际边界的唯一弧先锚定一重，再提升闭环并用极小子盘取得不逃逸的连续填充。仅对欧氏极限反射，取得一端、有限拓扑型及二次面积增长后，才使用 Anderson Corollary 1.5。全局抽取的边界适配管状投影给出覆盖度一及最终同痕。
+精确最小性先通过全局 Plateau 比较盘、相对盘替换及特定接缝的面积逼近，迫使原局部盘本身成为全局最小面积盘。边界一阶变分给出二次面积上界，不预设密度为 $`1/2`$。加权曲率点选使人工边界在缩放中退至无穷远；已有曲率界后才建立 Fermi 半图像。实际边界的唯一弧先锚定一重，再提升闭环并用极小子盘取得不逃逸的连续填充。仅对欧氏极限反射，取得一端、有限拓扑型及二次面积增长后，才使用 Anderson Corollary 1.5。全局抽取的边界适配管状投影给出覆盖度一及最终同痕。
 
 引理 P 的[准确陈述](proof/localization.md)假设曲面已存在，并在固定光滑相对环境同痕类内精确达到定边界面积下确界；它不要求平直环面或线性叶层。
 
-两项应用以 v2 Theorem 2.6（p. 8）为外部定边界达到性输入，未独立认证其证明。直接使用该印刷陈述时，在定义面积复杂度之前，选择比赛版 §3 允许的平直边界环面、线性经线叶层和精确 $1-r$ 领子。任意已固定的非平直度量还需要相应的定边界达到性定理。
+两项应用以 v2 Theorem 2.6（p. 8）为外部定边界达到性输入，未独立认证其证明。直接使用该印刷陈述时，在定义面积复杂度之前，选择比赛版 §3 允许的平直边界环面、线性经线叶层和精确 $`1-r`$ 领子。任意已固定的非平直度量还需要相应的定边界达到性定理。
 
 ## 范围
 
-- 全称不交性 $(\mathrm{U})$ 仍是外部输入。
-- 不证明 Kapovich 的全部稳定曲面空间 $M_a$ 紧。
+- 全称不交性 $`(\mathrm{U})`$ 仍是外部输入。
+- 不证明 Kapovich 的全部稳定曲面空间 $`M_a`$ 紧。
 - 不证明比赛版附录 A 的完整分片光滑类别、分片与光滑 infimum 的桥或多边界版本。
-- 未进行完整新颖性检索；如存在完全适用的旧定理，贡献可能应降为补充引用。这里不主张 Theorem A 或 $(\mathrm{Fin})$ 为假。
+- 未进行完整新颖性检索；如存在完全适用的旧定理，贡献可能应降为补充引用。这里不主张 Theorem A 或 $`(\mathrm{Fin})`$ 为假。
 - Schoen 原章、Lawson 来源、Gilbarg–Trudinger 原书、Richards 原文和 Morrey/Meeks–Yau 原文未单独核对。所用标准形式和核查层级见[输入](proof/localization.md)与[文献表](sources/bibliography.md)。
 
 ## 仓库导览
@@ -49,6 +49,10 @@ Pan、You、Zhou、Chen 的作者后续版本 arXiv:2609.09224v2（2026 年 9 �
 AI 声明：
 
 > GPT-6.1 Sol, in OpenAI Codex under human direction, developed the proof and drafted this text; a separate GPT-6.1 Sol session in a fresh context performed an adversarial review. Claude planned the work, checked key steps against the sources, and reviewed and edited the final text. No human expert has certified the work.
+
+## 版本说明
+
+本版本与 `6179e85e49f30e9b02e4e7956d02eb94e2931f7e` 相比，只改了公式的写法。GitHub 的 Markdown 处理会去掉 `$...$` 里的 `\{`、`\,` 等反斜杠转义，还有部分公式没被识别，所以全部公式改用 GitHub 的原样数学语法。数学文字没有任何改动。
 
 ## 许可
 
